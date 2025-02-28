@@ -79,7 +79,7 @@ int main()
 
   int nomePeca = escolhaPeca(); // Identifica qual peça será movimentada
   int numeroMovimentos;
-  int direcao, i, j;
+  int direcao;
   char *mensagem;
 
   switch (nomePeca)
@@ -144,35 +144,35 @@ int main()
       switch (direcao)
       {
         case 1:
-            for (i = 0; i < 2; i++) printf("Cima\n");
+            for (int i = 0; i < 2; i++) printf("Cima\n");
             for (int j = 0; j < 1; j++) printf("Direita\n");
             break;
         case 2:
-            for (i = 0; i < 2; i++) printf("Cima\n");
+            for (int i = 0; i < 2; i++) printf("Cima\n");
             for (int j = 0; j < 1; j++) printf("Esquerda\n");
             break;
         case 3:
-            for (i = 0; i < 2; i++) printf("Baixo\n");
+            for (int i = 0; i < 2; i++) printf("Baixo\n");
             for(int j = 0; j < 1; j++) printf("Esquerda\n");
             break;
         case 4:
-            for (i = 0; i < 2; i++) printf("Baixo\n");
+            for (int i = 0; i < 2; i++) printf("Baixo\n");
             for (int j = 0; j < 1; j++) printf("Direita\n");
             break;
         case 5:
-            for (i = 0; i < 2; i++) printf("Direita\n");
+            for (int i = 0; i < 2; i++) printf("Direita\n");
             for(int j = 0; j < 1; j++) printf("Cima\n");
             break;
         case 6:
-            for (i = 0; i < 2; i++) printf("Direita\n");
+            for (int i = 0; i < 2; i++) printf("Direita\n");
             for(int j = 0; j < 1; j++) printf("Baixo\n");
             break;
         case 7:
-            for (i = 0; i < 2; i++) printf("Esquerda\n");
+            for (int i = 0; i < 2; i++) printf("Esquerda\n");
             for(int j = 0; j < 1; j++) printf("Cima\n");
             break;
         case 8:
-            for (i = 0; i < 2; i++) printf("Esquerda\n");
+            for (int i = 0; i < 2; i++) printf("Esquerda\n");
             for(int j = 0; j < 1; j++) printf("Baixo\n");
             break;
       }
