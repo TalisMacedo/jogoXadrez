@@ -97,7 +97,7 @@ int main()
           case 1: mensagem = "Cima, Direita"; break;
           case 2: mensagem = "Cima, Esquerda"; break;
           case 3: mensagem = "Baixo, Esquerda"; break;
-          default: mensagem = "Baixo, Direita"; break;
+          case 4: mensagem = "Baixo, Direita"; break;
         }
         for (int i = 0; i < numeroMovimentos; i++) printf("%s\n", mensagem);
     break;
@@ -114,7 +114,7 @@ int main()
           case 1: mensagem = "Direita"; break;
           case 2: mensagem = "Esquerda"; break;
           case 3: mensagem = "Cima"; break;
-          default: mensagem = "Baixo"; break;
+          case 4: mensagem = "Baixo"; break;
         }
         for (int i = 0; i < numeroMovimentos; i++) printf("%s\n", mensagem);
     break;
@@ -131,7 +131,7 @@ int main()
           case 1: mensagem = "Direita"; break;
           case 2: mensagem = "Esquerda"; break;
           case 3: mensagem = "Cima"; break;
-          default: mensagem = "Baixo"; break;
+          case 4: mensagem = "Baixo"; break;
         }
         for (int i = 0; i < numeroMovimentos; i++) printf("%s\n", mensagem);
     break;
